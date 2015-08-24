@@ -5,9 +5,8 @@
       <div class="item item-body">
         <div>
           There is a fire in <b>sector 3</b>
-          <ion-option-button class="button-assertive" ng-click="getPhoto()">
-          Take Picture
-        </ion-option-button>
+<img ng-src="{{srcImage || 'img/dummy.jpg'}}" id="srcImage" width="250 " height="250" style="display: block; margin: 0 auto;"/><br/>
+<button class="button button-full button-positive " ng-click="takeImage() ">Take Image</button><br/>
         </div>
       </div>
     </div>

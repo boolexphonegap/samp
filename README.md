@@ -1,0 +1,2 @@
+# samp
+Testing Cordova Features

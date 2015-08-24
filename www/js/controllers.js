@@ -1,7 +1,10 @@
-angular.module('starter.controllers', ['ngCordova'])
+angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope, $cordovaCamera) {
 
+document.addEventListener("deviceready", function () {
+
+   
 $scope.takeImage = function() {
         var options = {
             quality: 80,
@@ -21,6 +24,9 @@ $scope.takeImage = function() {
             // error
         });
     }
+
+  }, false);
+
 
 })
 

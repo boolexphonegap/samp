@@ -43,6 +43,7 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
+  <gap:plugin name="Camera" value="org.apache.cordova.camera" />
   <feature name="Camera">
       <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
   </feature>

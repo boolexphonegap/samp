@@ -1,6 +1,6 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['ngCordova'])
 
-.controller('DashCtrl', function($scope) {
+.controller('DashCtrl', function($scope, $cordovaCamera) {
 
 $scope.takeImage = function() {
         var options = {
@@ -21,7 +21,7 @@ $scope.takeImage = function() {
             // error
         });
     }
-    
+
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {

@@ -8,7 +8,7 @@ angular.module('starter.controllers', [])
     }, function(err) {
       console.err(err);
     });
-  
+  }
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
